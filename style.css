@@ -1,0 +1,293 @@
+.main-title {
+    color: #1CC660;
+    font-size: 64px;
+    margin-bottom: 28px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.ui-kit {
+    margin: 40px 40px;
+}
+
+.block {
+    background-color: #dfdfdf;
+    border: 2px dashed #BBB;
+    border-radius: 13px;
+    display: inline-block;
+ }
+ 
+/* Блок кнопок */
+ .buttons {
+   width: 480px;
+   padding: 20px 16px;
+   vertical-align: top;
+ }
+ 
+ .buttons__info {
+     width: 390px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .text {
+   font-family: Arial;
+ }
+ 
+ .block__title {
+   font-size: 28px;
+ }
+ 
+ .buttons__secondary-titles {
+   margin-left: 120px;
+   margin-bottom: 28px;
+   font-size: 18px;
+ }
+ 
+ .buttons__secondary-titles-title {
+  margin-right: 45px;
+ }
+ 
+ .buttons__body--line {
+   display: flex;
+   align-items: center;
+   margin-bottom: 16px;
+ }
+ 
+ .buttons__body--line-title {
+       width: 80px;
+ }
+ 
+ 
+/* Стили кнопок */
+ .button {
+     border: 0px;
+     font-size: 16px;
+     border-radius: 13px;
+     color: #ffffff;
+     margin-left: 32px;
+ }
+ 
+ .button--theme-green {
+   background-color: #1CC660;
+   color: #FFFFFF;
+ }
+ 
+ .button--theme-white {
+   background-color: #FFF;
+   color: #1CC660;
+ }
+ 
+ .button--theme-border {
+   background-color: transparent;
+   border: 2px solid #000;
+   color: #000;
+ }
+ 
+ .button--size-small {
+   padding: 8px 18px;
+   font-size: 16px;
+ }
+ 
+ .button--size-large {
+   padding: 16px 32px;
+   font-size: 24px;
+ }
+ 
+ .button-none {
+   opacity: 0;
+ }
+ 
+ .button--cond-disabled {
+   background-color: transparent;
+   border: 2px solid #B8B8B8;
+   color: #B8B8B8;
+ }
+ 
+ .button--cond-hover-small {
+   background-color: #000;
+   border: 0px;
+   color: #FFF;
+ }
+ 
+ .button--cond-hover-large {
+   background-color: #FFF;
+   border: 2px solid #1CC660;
+   color: #1CC660;
+ }
+
+.button__img {
+    width: 20px;
+    margin-left: 8px;
+    border-radius: 50px;
+
+}
+
+.button--google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 64px;
+    font-size: 14px; 
+}
+
+.button--google-hover {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    color: #FFF;
+    background-color: transparent;
+    border: 2px solid #FFF;
+}
+
+/* Блок фильтров */
+.filters {
+   width: 350px;
+   margin-left: 28px;
+   display: inline-block;
+}
+
+.filters__body {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+}
+
+.filters__body__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 4px;
+
+}
+
+.filter--cond-default {
+    background-color: #E7EFE7;
+    color: #B8B8B8;
+    border: 0px;
+    padding: 4px 13px;
+    border-radius: 8px;
+    transition-duration: .5s;
+
+}
+
+.filter--cond-default:hover {
+    background-color: #ffffff;
+    color: #B8B8B8;
+}
+
+
+/* Инпуты в форме */
+.form {
+    display: inline-block;
+    margin-top: 28px;
+}
+
+.form__body {
+    width: 1135px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+    padding: 15px 62px 4px 60px;
+}
+
+.form__body__items--line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+} 
+
+.form__body__items--line-title {
+    width: 70px;
+}
+
+.input {
+    width: 330px;
+    height: 52px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.input--theme-white {
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+.input--theme-green {
+    border: 2px solid #1CC660;
+    color: #1CC660;
+}
+
+.form-text {
+    margin-left: 28px;
+}
+
+.input-item {
+    margin-left: 20px;
+}
+
+.input-title-black {
+    color: black;
+    margin-bottom: 4px;
+}
+
+.input-title-white {
+    color: #FFF;
+    margin-bottom: 4px;
+}
+
+.input-title-green {
+    color: #1CC660;
+    margin-bottom: 4px;
+}
+
+.input--theme-red {
+    border: 2px solid #F32C2C;
+    color: #F32C2C;
+}
+
+.input--theme-yellow {
+    border: 2px solid #FFF9C4;
+    color: #FFF9C4;
+}
+
+.input--theme-dark-green {
+    border: 2px solid #086E31;
+    color: #086E31;
+}
+
+.input-descrip-red {
+    color: #F32C2C;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.input-descrip-yellow {
+    color: #FFF9C4;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.input-descrip-green {
+    color: #086E31;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.input-title-red {
+    color: #F32C2C;
+    margin-bottom: 4px;
+}
+
+.input-title-yellow {
+    color: #FFF9C4;
+    margin-bottom: 4px;
+}
+
+.input-title-dark-green {
+    color: #086E31;
+    margin-bottom: 4px;
+}
