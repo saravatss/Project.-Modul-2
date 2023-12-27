@@ -1,0 +1,38 @@
+.grids {
+    margin-top: 28px;
+    border: 2px dashed #BBB;
+    background-color: #dfdfdf;
+    border-radius: 13px;
+
+}
+
+.grid__title {
+    margin-left: 32px;
+}
+
+.grid-block {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 20px 20px 20px 20px;
+} 
+
+.col {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.col--size-1 {
+    width: 8.3%;
+}
+
+.grid-column {
+    background-color: rgb(173, 214, 137);
+    height: 150px;
+}
