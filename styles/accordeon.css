@@ -1,0 +1,52 @@
+.accordeon {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 28px;
+    padding-bottom: 20px;
+}
+  
+  
+  .button-open {
+    display: block;
+    width: 810px;
+    font-size: 18px;
+    background-color: transparent; 
+    color: #000000;
+    border-radius: 16px;
+    border: 2px solid #000;
+    margin: 2px 28px 2px 28px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-family: "Unbounded","TT NORMS PRO","Trebuchet MS",sans-serif;
+    vertical-align: middle;
+    
+  }
+  
+  .full-block {
+    margin-bottom: 5px;
+    
+  }
+  
+  
+  .accordion {
+    display: none;
+    width: 840px;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 2px 28px 2px 28px;
+    padding: 20px 20px 20px 20px;
+    background-color: transparent;
+    padding: 5px;
+    vertical-align: middle;
+    
+  }
+  
+  .open {
+    display: block;
+  }
+  
+  
+  

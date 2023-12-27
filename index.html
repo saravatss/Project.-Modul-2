@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Suisse Intl:wght@100;300;400&display=swap"/>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/iconsfilters.css">
+    <link rel="stylesheet" href="styles/modalWindow.css">
+    <link rel="stylesheet" href="styles/accordeon.css">
 </head>
 <body>
     <div class="ui-kit">
@@ -60,6 +66,80 @@
           </div>
         </div>
         
+        <div class="group">
+            <div class="icons block">
+                <div class="icons__body">
+                    <h2 class="text block__title">Специальные знаки и иконки</h2>
+        
+                    <div class="icons__body__items">
+                        <div class="block fav">
+                            <img src="img/fav.png" class="img-icon">
+                            <img src="img/fav hover.png" class="img-icon">
+                            <img src="img/fav done 2.png" class="img-icon img-small">
+                        </div> 
+
+                        <div class="icons__body__items">
+                            <div class="block fav">
+                                <img src="img/delete.png" class="img-icon-2">
+                                <img src="img/delete hover.png" class="img-icon-2">
+                            </div>
+                        </div>
+        
+                        <div class="icons__body__items">
+                            <div class="block fav">
+                                <img src="img/close 2.png" class="img-icon-2">
+                                <img src="img/close 2 hover.png" class="img-icon-2">
+                            </div>
+                        </div>
+        
+                        <div class="icons__body__items">
+                            <div class="block fav">
+                                <img src="img/done.png" class="img-icon-2">
+                                <img src="img/done hover.png" class="img-icon-2">
+                            </div>
+                        </div>
+
+                        <div class="icons__body__items">
+                            <div class="block fav">
+                                <img src="img/add 1.png" class="img-icon-2">
+                                <img src="img/add hover 1.png" class="img-icon-2">
+                            </div>
+                        </div>
+                            
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="lines block">
+                <div class="block others">
+                    <div class="others-line">
+                        <p class="profile text-grey text">Перейти в профиль.</p>
+                        <div class="line-2 grey"></div>
+                    </div>
+
+                    <div class="others-line">
+                        <p class="profile text">Перейти в профиль.</p>
+                        <div class="line-2"></div>
+                    </div>
+                </div>
+
+                <div class="block others others-margin">
+                    <div class="others-line">
+                        <div class="search">
+                            <img src="img/search.png" class="img-icon-3">
+                        </div>
+                    </div>
+
+                    <div class="others-line">
+                        <div class="search-hover">
+                            <img src="img/search hover.png" class="img-icon-3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="filters block">
             <div class="filters__body">
               <h2 class="text block__title">Фильтры</h2>
@@ -84,16 +164,12 @@
 
                         <div class="input-item">
                             <div class="text input-title-white">Text</div>
-                            <div class="input input--theme-white">
-                                <div class="text form-text">Text</div>
-                            </div>
+                            <input class="input input--theme-white"></input>
                         </div>    
 
                         <div class="input-item">
                             <div class="text input-title-black">Text</div>
-                            <div class="input input--theme-black">
-                                <div class="text form-text">Text</div>
-                            </div>
+                            <input class="input input--theme-black"></input>
                         </div>    
                     </div>
 
@@ -102,51 +178,89 @@
 
                         <div class="input-item">
                             <div class="text input-title-black">Text</div>
-                            <div class="input input--theme-black">
-                                <div class="text form-text">Text|</div>
-                            </div>
+                            <input class="input input--theme-black"></input>
                         </div>
 
                         <div class="input-item">  
                             <div class="text input-title-green">Text</div> 
-                            <div class="input input--theme-green">
-                                <div class="text form-text">Text|</div>
-                            </div>
+                            <input class="input input--theme-green"></input>
                         </div> 
                     </div>
 
-                    <div class="form__body__items--line">
-                        <div class="text form__body__items--line-title">Error</div>
+                    <div class="line"></div>
 
-                        <div class="input-item">
-                            <div class="text input-title-red">Придумайте пароль</div>
-                            <div class="input input--theme-red">
-                                <div class="text form-text">Text|</div>
-                            </div>
-                            <div class="text input-descrip-red">Слишком слабый пароль. Добавьте цифры и специальные знаки.</div>
-                        </div>
+                    
 
-                        <div class="input-item">
-                            <div class="text input-title-yellow">Придумайте пароль</div>
-                            <div class="input input--theme-yellow">
-                                <div class="text form-text">Text|</div>
-                            </div>
-                            <div class="text input-descrip-yellow">Слишком слабый пароль. Добавьте цифры и специальные знаки.</div>
+                <div class="form__body__items--line">
+                <div class="text form__body__items--line-title">Email</div>
+                    <div class="input-item">
+                        <div class="input input--theme-black input-email" id="input">
+                            <div class="text form-text">Email</div>
                         </div>
+                    </div>  
 
-                        <div class="input-item">
-                            <div class="text input-title-dark-green">Придумайте пароль</div>
-                            <div class="input input--theme-dark-green">
-                                <div class="text form-text">Text|</div>
-                            </div>
-                            <div class="text input-descrip-green">Отлично, хороший пароль!</div>
+                    <div class="input-item">
+                        <div class="input input--theme-red input-email" id="input">
+                            <div class="text form-text">yeajdgmail.com</div>
                         </div>
-                    </div>
+                        <div class="text input-descrip-red">Вы забыли «@».</div>
+                    </div>  
+                </div>
 
                 </div>
             </div>
         </div>
 
-      </div>
+    <div class ="block accordeon">
+        <div class="block-content">
+         <div class ="full-block">
+           <h6 class ="button-open" data-target="#block1">Чтобы понять, чего вы хотите, сначала обдумайте ваши потребности и желания.</h6>
+           <div class ="accordion text" id="block1">
+            Например, вам не нравится квартира, в которой вы сейчас живете: хочется попросторнее и с лучшей планировкой. 
+           </div>
+         </div>
+       
+         <div class ="full-block">
+             <h6 class ="button-open" data-target="#block2">Стоит остановиться на целях более подробно.</h6>
+       
+           <div class ="accordion text" id="block2">
+            Оцените не только необходимые суммы и срок достижения: задумайтесь, нужно ли это вам вообще. Почему вы хотите именно этого? Как вы будете этим пользоваться? Возрастет ли качество ваше жизни, станете ли вы счастливее и увереннее в будущем?
+           </div>
+         </div>
+
+         <div class ="full-block">
+            <h6 class ="button-open" data-target="#block3">Хорошо обдумайте, какие у вас желания, насколько они важны и соответствуют ли им финансовые цели.</h6>
+      
+          <div class ="accordion text" id="block3">
+            Возможно, то, о чем вы мечтали, на реальной практике не соответствует ожиданиям, и лучше узнать об этом заранее, а не тратить несколько лет на путь к цели и много денег на покупку.
+          </div>
+        </div>
+
+        <div class ="full-block">
+            <h6 class ="button-open" data-target="#block4">Можно использовать подход SMART для постановки целей.</h6>
+      
+          <div class ="accordion text" id="block4">
+            Это сокращение означает, что цель должна быть:
+            Конкретной (Specific).
+            Измеримой (Measurable).
+            Достижимой (Achievable).
+            Подходящей и важной (Relevant).
+            Привязанной к определенному времени (Time-bound).
+          </div>
+        </div>
+
+        <div class ="full-block">
+            <h6 class ="button-open" data-target="#block5">Цель должна быть измеримой в деньгах.</h6>
+      
+          <div class ="accordion text" id="block5">
+            Измерения важны, чтобы понять, сколько денег понадобится и какой у вас прогресс, то есть близки ли вы к достижению цели.
+          </div>
+        </div>
+        </div>
+       </div>
+</div>
+
+    <script src="main.js"></script>
+    <script src="accordeon.js"></script>
 </body>
 </html>

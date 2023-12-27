@@ -1,0 +1,144 @@
+/* Блок фильтров */
+.filters {
+    width: 350px;
+    margin-left: 28px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+ }
+ 
+ .filters__body {
+     width: 250px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 28px;
+ }
+ 
+ .filters__body__items {
+     display: inline-block;
+ 
+ }
+ 
+ .filter--cond-default {
+     background-color: #E7EFE7;
+     color: #B8B8B8;
+     border: 0px;
+     padding: 4px 13px;
+     border-radius: 8px;
+     transition-duration: .5s;
+     margin-bottom: 4px;
+ 
+ }
+ 
+ .filter--cond-default:hover {
+     background-color: #ffffff;
+     color: #B8B8B8;
+ }
+ 
+ 
+ /* Блок специальных знаков */
+ .group {
+     display: inline-block;
+     margin-left: 28px;
+     vertical-align: top;
+ }
+ 
+ .icons {
+     display: block;
+     width: 660px;
+ }
+ 
+ .icons__body {
+     width: 570px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 28px;
+     padding: 8px 37px 16px 43px;
+ }
+ 
+ .icons__body__items {
+     display: flex;
+     gap: 4px;
+ }
+ 
+ .img-icon {
+     width: 20px;
+     margin: 10px 4px 6px 0;
+     text-align: center;
+ }
+ 
+ .img-icon-2 {
+     width: 30px;
+     margin: 10px 4px 6px 0;
+     text-align: center;
+ }
+ 
+ .fav {
+     display: inline-block;
+     text-align: center;
+     justify-content: center;
+     width: 110px;
+ }
+ /* Блок иконок */
+ 
+ .img-small {
+     height: 23px;
+     margin-right: 0px;
+ }
+ 
+ .lines {
+     width: 660px;
+     display: block;
+     margin-top: 28px;
+ }
+ 
+ .others {
+     margin: 32px 240px 32px 32px;
+ }
+ 
+ .others-line {
+     display: inline-block;
+     margin: 8px 10px 10px 10px;
+ }
+ 
+ .line-2 {
+     background-color: #000;
+     width: 155px;
+     height: 1px;
+     margin-top: -13px;
+     margin-bottom: 10px;
+ }
+ 
+ .grey {
+     background-color: #B8B8B8;;
+ }
+ 
+ .search {
+     width: 386px;
+     border: 2px solid #B8B8B8;;
+     height: 34px;
+     background-color: transparent;
+     border-radius: 8px;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .search-hover {
+     width: 386px;
+     border: 2px solid #FFF;
+     height: 34px;
+     background-color: transparent;
+     border-radius: 8px;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .img-icon-3 {
+     width: 18px;
+     margin-left: 12px;
+     text-align: center;
+ }
+ 
+ .others-margin {
+     margin: -8px 242px 33px 33px;
+ }

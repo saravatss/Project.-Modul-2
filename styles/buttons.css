@@ -1,0 +1,79 @@
+/* Стили кнопок */
+.button {
+    border: 0px;
+    font-size: 16px;
+    border-radius: 13px;
+    color: #ffffff;
+    margin-left: 32px;
+}
+
+.button--theme-green {
+  background-color: #1CC660;
+  color: #FFFFFF;
+}
+
+.button--theme-white {
+  background-color: #FFF;
+  color: #1CC660;
+}
+
+.button--theme-border {
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+}
+
+.button--size-small {
+  padding: 8px 18px;
+  font-size: 16px;
+}
+
+.button--size-large {
+  padding: 16px 32px;
+  font-size: 24px;
+}
+
+.button-none {
+  opacity: 0;
+}
+
+.button--cond-disabled {
+  background-color: transparent;
+  border: 2px solid #B8B8B8;
+  color: #B8B8B8;
+}
+
+.button--cond-hover-small {
+  background-color: #000;
+  border: 0px;
+  color: #FFF;
+}
+
+.button--cond-hover-large {
+  background-color: #FFF;
+  border: 2px solid #1CC660;
+  color: #1CC660;
+}
+
+.button__img {
+   width: 20px;
+   margin-left: 8px;
+   border-radius: 50px;
+
+}
+
+.button--google {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 8px 64px;
+   font-size: 14px; 
+}
+
+.button--google-hover {
+   margin-top: 8px;
+   margin-bottom: 20px;
+   color: #FFF;
+   background-color: transparent;
+   border: 2px solid #FFF;
+}

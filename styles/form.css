@@ -1,0 +1,132 @@
+/* Блок инпутов */
+.form {
+    display: inline-block;
+    margin-top: 28px;
+}
+
+.form__body {
+    width: 1132px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+    padding: 15px 62px 4px 60px;
+}
+
+.form__body__items--line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    margin-top: 20px;
+} 
+
+.form__body__items--line-title {
+    width: 70px;
+}
+
+.input {
+    width: 330px;
+    height: 52px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 8px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.input--theme-white {
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+.input--theme-green {
+    border: 2px solid #1CC660;
+    color: #B8B8B8;
+}
+
+.form-text {
+    margin-left: 16px;
+}
+
+.input-item {
+    margin-left: 20px;
+}
+
+.input-title-black {
+    color: black;
+    margin-bottom: 4px;
+}
+
+.input-title-white {
+    color: #FFF;
+    margin-bottom: 4px;
+}
+
+.input-title-green {
+    color: #1CC660;
+    margin-bottom: 4px;
+}
+
+.input--theme-red {
+    border: 2px solid #F32C2C;
+    color: #F32C2C;
+}
+
+.input--theme-yellow {
+    border: 2px solid #FFF9C4;
+    color: #FFF9C4;
+}
+
+.input--theme-dark-green {
+    border: 2px solid #086E31;
+    color: #086E31;
+}
+
+.input-descrip-red {
+    color: #F32C2C;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.input-descrip-yellow {
+    color: #FFF9C4;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.input-descrip-green {
+    color: #086E31;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.input-title-red {
+    color: #F32C2C;
+    margin-bottom: 4px;
+}
+
+.input-title-yellow {
+    color: #FFF9C4;
+    margin-bottom: 4px;
+}
+
+.input-title-dark-green {
+    color: #086E31;
+    margin-bottom: 4px;
+}
+
+.input-email {
+    height: 36px;
+}
+
+.text-grey {
+    color: #B8B8B8;
+}
+
+.line {
+    background-color: #B8B8B8;
+    height: 2px;
+    width: 100%;
+    text-align: center;
+}
+
